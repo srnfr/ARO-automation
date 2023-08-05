@@ -1,6 +1,14 @@
 # ARO-automation
 Azure RedHat Openshift Builder
 
+## During Buildup
+
+`az aro list -o table
+Name    ResourceGroup    Location       ProvisioningState    WorkerCount
+------  ---------------  -------------  -------------------  -------------
+test7   training-OKD     francecentral  Creating             3
+`
+
 ## After Buildup
 
 You can log into the cluster using the kubeadmin user. Run the following command to find the password for the kubeadmin user.
